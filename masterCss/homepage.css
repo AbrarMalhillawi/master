@@ -1,0 +1,276 @@
+/* start css for landing page */
+.PicLandingPage
+{
+   background-image: url(../pic/landing.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 215.3vh;
+   height: 100vh;
+}
+#text_landing_page
+{   
+    
+    color:rgb(235, 226, 226);
+    font-family:'Times New Roman', Times, serif;
+    padding-top: 11%; 
+    padding-left: 8%;
+    font-weight:bold;
+    position: relative;
+    animation-name: LandingPage;
+    animation-duration: 2s;  
+    animation-delay: 0s;
+    animation-fill-mode: backwards;
+} 
+@keyframes LandingPage {
+    from {top: -90px;}
+    to {top: 90px;}
+  }
+#text_landing_page >h1 
+{
+    font-size:12vh;
+    font-weight: bold;
+
+}
+.container-fluid
+{
+    position: fixed;
+    padding-top: 2%;
+}
+.nav-link
+{
+   color:#7b0202;
+   font-size:x-large;
+   
+}
+.navbar-nav > li > a, .navbar-brand {
+    height: 55px;
+  
+}
+#ButtonLandingPage>button
+{
+   /* background-color: #f8baba; */
+    border: solid 2px;
+    /* border-radius: 11%; */
+    width:10%;
+    padding: 9px;
+    margin-bottom: 2%;
+    align-items: center;
+    margin-left: 49%;
+    font-weight: bold;
+    color:#7b0202;
+    position: relative;
+    animation-name: LandingPage;
+    animation-duration: 2s;  
+    animation-delay: 0s;
+    animation-fill-mode: backwards;
+}
+/* end css for landing page  */
+
+/* animation to oursirevices... */
+@keyframes textAnimation {
+    from {left: -200px;}
+    to {left: 100px;}
+  }
+
+
+
+/* start css for cotton candy with our services */
+.PicCootonCandy
+{
+    background-image: url(../pic/cottonCandy.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 215.3vh;
+    height: 100vh;
+}
+.PicCootonCandy >div>h2
+{
+    font-size:6vh ;
+    color:rgb(70, 24, 24);
+    font-family:'Times New Roman', Times, serif;
+    padding-top: 4%; 
+    padding-left: 44%;
+    font-weight:bold;
+    position: relative;
+    animation-name: textAnimation;
+    animation-duration: 3s;  
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
+}
+.categoriesServices
+{
+display: flex;
+flex-direction: row;
+margin-top: 5%;
+justify-content: space-around; 
+}
+
+.OurServices
+{  
+    display: flex;
+    flex-direction: column;
+
+}
+.textOurServicesOpacity
+{
+    text-align: center;
+    background-color: #f8baba;
+    opacity: 60%;
+    color:black;
+}
+
+/* end css for cotton candy with our services  */
+
+
+
+/* start css for section Descount in Home Page */
+.containerForDiscount
+{
+display: flex;
+flex-direction: row;
+justify-content:space-around;
+margin-top: 5%;
+}
+.picForDiscount>img
+{
+    width:300px;
+    height:250px;
+}
+.discriptionForDiscount
+{   
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1%;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 5%;
+    text-align: center;
+    color: rgb(5, 5, 5);
+    width: 102%;
+    height: 130px;
+    border: #C6B3B3 solid 2px;
+    background-color: #C6B3B3;
+    border-radius: 9%;
+    box-shadow: 7px 10px 10px #ae7373;
+}
+.discriptionForDiscount>pre>span
+{
+    color:#710C0C ;
+    font-weight: bolder; 
+    font-size: larger;
+}
+/* end css for section Descount in Home Page */
+
+
+
+
+
+/* start css for about us */
+#PicAboutUs
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 2%; 
+}
+
+#textAboutUs
+{
+    padding-top: 1%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+}
+
+#textAboutUs>pre>span
+{
+    color:#6e1919 ;
+    font-size: 20px;
+    font-weight: bolder;
+   
+   
+    
+}
+/* end css for about us */
+
+
+/*  start css for footer */
+
+.containerFooter
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+.containerFooter>div>h3{
+   margin-left: 40px;
+}
+/* div1 for name cotton candy */
+    .footerNameCottonCandy>h2
+    {
+        margin-top: 50px;
+        color: #7b0202;
+        font-size: xx-large;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+
+    .emailAddress
+    {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+    }
+
+/* end css for footer */
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 660px) {
+    
+/* responsive for pic landing page  */
+    .PicLandingPage{
+         background-image: url(../pic/landing.png);
+         background-size: cover;
+         background-repeat: no-repeat;
+         width:41em;
+         height: auto;
+    }
+
+/* responsive for pic cottob candy  */
+    .PicCootonCandy
+{
+    background-image: url(../pic/cottonCandy.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:41em;
+    height: auto;
+}
+
+#ButtonLandingPage>button
+{
+   /* background-color: #f8baba; */
+   font-size: large;
+    border: solid 2px;
+    border-radius: 11%;
+    width:15%;
+    padding: 3px;
+    margin-bottom: 2%;
+    align-items: center;
+    margin-left: 49%;
+    font-weight: bold;
+    color:#7b0202
+}
+  }
+  
+
+ 
