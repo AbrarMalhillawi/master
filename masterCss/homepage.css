@@ -13,7 +13,7 @@
     color:rgb(235, 226, 226);
     font-family:'Times New Roman', Times, serif;
     padding-top: 11%; 
-    padding-left: 8%;
+    padding-left: 6%;
     font-weight:bold;
     position: relative;
     animation-name: LandingPage;
@@ -48,14 +48,12 @@
 }
 #ButtonLandingPage>button
 {
-   /* background-color: #f8baba; */
     border: solid 2px;
-    /* border-radius: 11%; */
     width:10%;
     padding: 9px;
     margin-bottom: 2%;
     align-items: center;
-    margin-left: 49%;
+    margin-left: 44%;
     font-weight: bold;
     color:#7b0202;
     position: relative;
